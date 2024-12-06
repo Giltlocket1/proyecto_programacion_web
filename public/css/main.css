@@ -1,0 +1,53 @@
+/* Estilos Globales */
+body {
+    background: url("../img/fondo4.jpeg") fixed no-repeat 0 0;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.fondo {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    border: 2px #007286 solid;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bg-card {
+    background-color: rgb(0, 0, 0, 0.7);
+    border-radius: 10px;
+    border: 2px #007286 solid;
+}
+
+/* Nuevos Estilos del Formulario de Registro */
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+}
+
+label {
+    font-size: 0.9rem;
+}
+
+input.form-control {
+    background: #f8f9fa;
+    border: 1px solid #ced4da;
+}
+
+input.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+}
+
+button {
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.02);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
